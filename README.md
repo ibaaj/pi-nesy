@@ -130,7 +130,7 @@ The `config.json` file also contains hyperparameters for Pi-NeSy's neural networ
 See in `./config_files` for config examples.
 
 
-## Parse and aggregated the results
+## Parse and aggregate the results
 
 To parse and aggregate the results obtained with Pi-NeSy, you can run:
 
