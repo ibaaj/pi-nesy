@@ -18,7 +18,7 @@ In Π-NeSy, high-performance processing is carried out using a GPU or multithrea
 
 Clone the repository:
 ```bash
-git clone https://github.com/ibaaj/Π-nesy
+git clone https://github.com/ibaaj/pi-nesy
 ```
 
 Run the installation script:
