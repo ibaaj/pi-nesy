@@ -82,6 +82,13 @@ check_cmake
 check_pybind11
 check_bash_version
 
+mkdir -p lib
+mkdir -p data
+mkdir -p results
+mkdir -p aggregated_results
+mkdir -p extern
+mkdir -p tmp
+
 
 choice=""
 opt=""
@@ -257,7 +264,7 @@ fi
 
 echo "Cloning linqs/visual-sudoku-puzzle-classification and generating datasets..."
 
-mkdir -p extern
+
 
 cd extern
 
