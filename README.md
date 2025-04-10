@@ -79,7 +79,7 @@ If you want to run a single MNIST-Additions-k experiment, follow these steps:
 - **probposs_transformation_method:** Use `1` for the antipignistic method or `2` for the method obeying the minimum specificity principle.
 - **file_txt:** A text file to log when the experiment is complete.
 
-This experiment is performed using the parameters defined in the config.json file.
+This experiment is performed using the parameters defined in config.json.
 
 ### Additional Experiment Configurations
 
