@@ -1,6 +1,6 @@
 # Pi-NeSy
 
-Pi-NeSy is a research software developed for performing neuro-symbolic computations. See [ArXiv Paper]().
+Pi-NeSy is a research software developed for performing neuro-symbolic computations. See [ArXiv Paper](https://arxiv.org/abs/2504.07055).
 
 In Pi-NeSy, high-performance processing is carried out using a GPU or multithreaded CPU.  The program supports Apple Metal, CPU, OpenCL, and CUDA, depending on the system's capabilities and user preferences.
 
@@ -154,7 +154,14 @@ Python scripts that load the backend libraries `*_computation_py` may experience
 To cite Pi-NeSy, use:
 
 ```
-@inproceedings{
+@article{baaj2025pinesy,
+      title={$\Pi$-NeSy: A Possibilistic Neuro-Symbolic Approach}, 
+      author={Ismaïl Baaj and Pierre Marquis},
+      year={2025},
+      eprint={2504.07055},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2504.07055}, 
 }
 ```
 
