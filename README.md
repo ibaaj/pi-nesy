@@ -16,6 +16,11 @@ In Pi-NeSy, high-performance processing is carried out using a GPU or multithrea
 
 ## Installation
 
+Clone the repository:
+```bash
+git clone https://github.com/ibaaj/pi-nesy
+```
+
 Run the installation script:
 
 ```bash
