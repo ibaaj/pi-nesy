@@ -95,7 +95,7 @@ This experiment is performed using the parameters defined in config.json.
   ./run.sh
   ```
 
-- **Using the DeepSoftLog CNN:**  
+- **Using DeepSoftLog's CNN:**  
   To run experiments using the convolutional neural network of [DeepSoftLog](https://github.com/jjcmoon/DeepSoftLog), update `config.json` with:
   ```json
   {
