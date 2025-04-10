@@ -1,8 +1,8 @@
-# Pi-NeSy
+# Π-NeSy
 
-Pi-NeSy is a research software developed for performing neuro-symbolic computations. See [ArXiv Paper](https://arxiv.org/abs/2504.07055).
+Π-NeSy is a research software developed for performing neuro-symbolic computations. See [ArXiv Paper](https://arxiv.org/abs/2504.07055).
 
-In Pi-NeSy, high-performance processing is carried out using a GPU or multithreaded CPU.  The program supports Apple Metal, CPU, OpenCL, and CUDA, depending on the system's capabilities and user preferences.
+In Π-NeSy, high-performance processing is carried out using a GPU or multithreaded CPU.  The program supports Apple Metal, CPU, OpenCL, and CUDA, depending on the system's capabilities and user preferences.
 
 ## Requirements
 
@@ -18,7 +18,7 @@ In Pi-NeSy, high-performance processing is carried out using a GPU or multithrea
 
 Clone the repository:
 ```bash
-git clone https://github.com/ibaaj/pi-nesy
+git clone https://github.com/ibaaj/Π-nesy
 ```
 
 Run the installation script:
@@ -56,7 +56,7 @@ Ensure that the installation script runs without errors; otherwise, verify your 
 
 ## Running Experiments
 
-To run experiments with **Pi-NeSy**, simply execute:
+To run experiments with **Π-NeSy**, simply execute:
 
 ```bash
 ./run.sh
@@ -122,7 +122,7 @@ This experiment is performed using the parameters defined in config.json.
 - **MNIST-Addition-k Values:**  
   To experiment with different values of `k`, modify `"mnist_addition_k"` (the default is set to `100 15 4 2 1`).
 
-The `config.json` file also contains hyperparameters for Pi-NeSy's neural network, settings for possibilistic learning, and directory paths for data, temporary files, and results. **Do not modify** the following parameters:
+The `config.json` file also contains hyperparameters for Π-NeSy's neural network, settings for possibilistic learning, and directory paths for data, temporary files, and results. **Do not modify** the following parameters:
 - `"library"` — Specifies your chosen backend.
 - `"problem_studied"` — Indicates the current neuro-symbolic problem being executed.
 
@@ -132,7 +132,7 @@ See in `./config_files` for config examples.
 
 ## Parse and aggregate the results
 
-To parse and aggregate the results obtained with Pi-NeSy, you can run:
+To parse and aggregate the results obtained with Π-NeSy, you can run:
 
 ```bash
 ./parse_results.sh
@@ -156,7 +156,7 @@ Python scripts that load the backend libraries `*_computation_py` may experience
 
 ## Citation 
 
-To cite Pi-NeSy, use:
+To cite Π-NeSy, use:
 
 ```
 @article{baaj2025pinesy,
@@ -172,4 +172,4 @@ To cite Pi-NeSy, use:
 
 ##  License
 
-Pi-NeSy is licensed under the Apache License 2.0. For more details, see the LICENSE file.
+Π-NeSy is licensed under the Apache License 2.0. For more details, see the LICENSE file.
