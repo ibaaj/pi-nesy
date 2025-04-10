@@ -257,6 +257,8 @@ fi
 
 echo "Cloning linqs/visual-sudoku-puzzle-classification and generating datasets..."
 
+mkdir -p extern
+
 cd extern
 
 git clone https://github.com/linqs/visual-sudoku-puzzle-classification/
