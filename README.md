@@ -153,7 +153,7 @@ This script removes all results and installation files, restoring the initial st
 ## Known Issues
 
 Python scripts that load the backend libraries `*_computation_py` may experience a segmentation fault upon closing. This issue is related to deallocation within pybind11 (investigated with lldb). It occurs after the experiments are complete and does not impact the experiment results.
-Update (11/04/25): The bug is linked to the pybind11 global static object (``py::float_ float DEFAULT_EPSILON``) in the main.cpp file in the `*_computation_py` backend libraries. Replacing it with ``constexpr float DEFAULT_EPSILON`` seems to avoid the bug (not tested in pi-nesy).
+Update (11/04/25): The bug is linked to the pybind11 global static object (``py::float_ float DEFAULT_EPSILON``) in the main.cpp file in the `*_computation_py` backend libraries. Replacing it with ``constexpr float DEFAULT_EPSILON`` seems to avoid the bug (but it is not implemented).
 
 
 ## Citation 
