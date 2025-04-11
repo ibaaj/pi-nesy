@@ -150,7 +150,7 @@ If you want to revert to the initial state, you can run:
 
 This script removes all results and installation files, restoring the initial state.
 
-## Known Issues
+## Known Issue
 
 Python scripts that load the backend libraries `*_computation_py` may experience a segmentation fault upon closing. This issue is related to deallocation within pybind11 (investigated with lldb). It occurs after the experiments are complete and does not impact the experiment results.
 
