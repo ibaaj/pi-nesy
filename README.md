@@ -140,7 +140,7 @@ To parse and aggregate the results obtained with Π-NeSy, you can run:
 Then go to ./aggregated_results/.
 
 
-##  Cleaning Installation
+##  Cleaning
 
 If you want to revert to the initial state, you can run:
 
